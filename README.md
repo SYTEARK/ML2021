@@ -10,6 +10,8 @@ Week | Date | Lecturer | Contents | References
 :--: | :--: | :--: | :--: | :--:
 01 | 2021-08-27 | [Ahnho](https://github.com/Ahnho) | Vector, Matrix and Linear Algebra | 
 01 | 2021-08-27 | [Axect](https://github.com/Axect) | Convolution, Pooling and VGGNet | [Colab](https://colab.research.google.com/drive/1FAnISLwYKXEehBPVNW74FUEhAUfMpXaC?usp=sharing), [Jupyter](./week01/chap1-1.ipynb)
+02 | 2021-09-05 | [hiilynn](https://github.com/hiilynn) | Line & Plane equation, Pseudo inverse | 
+02 | 2021-09-05 | [Axect](https://github.com/Axect) | Transfer learning with VGGNet | [Colab](https://colab.research.google.com/drive/12X5qabF9cw7jUHe0ODaF680wqw_Plsae?usp=sharing), [Jupyter](./week02/chap1-2.ipynb)
 
 
 ## References
