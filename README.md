@@ -12,6 +12,9 @@ Week | Date | Lecturer | Contents | References
 01 | 2021-08-27 | [Axect](https://github.com/Axect) | Convolution, Pooling and VGGNet | [Colab](https://colab.research.google.com/drive/1FAnISLwYKXEehBPVNW74FUEhAUfMpXaC?usp=sharing), [Jupyter](./week01/chap1-1.ipynb)
 02 | 2021-09-05 | [hiilynn](https://github.com/hiilynn) | Line & Plane equation, Pseudo inverse | 
 02 | 2021-09-05 | [Axect](https://github.com/Axect) | Transfer learning with VGGNet | [Colab](https://colab.research.google.com/drive/12X5qabF9cw7jUHe0ODaF680wqw_Plsae?usp=sharing), [Jupyter](./week02/chap1-2.ipynb)
+03 | 2021-09-19 | [Axect](https://github.com/Axect) | Discuss Plan | [PDF](./plan/plan_for_ml2021.pdf)
+04 | 2021-09-26 | [Ahnho](https://github.com/Ahnho) | Introduce RNN |
+05 | 2021-10-03 | [Ahnho](https://github.com/Ahnho) | Apply RNN to Stock Data |
 
 
 ## References
