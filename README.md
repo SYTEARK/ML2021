@@ -16,7 +16,7 @@ Week | Date | Lecturer | Contents | References
 04 | 2021-09-26 | [Ahnho](https://github.com/Ahnho) | Introduce RNN |
 05 | 2021-10-03 | [Ahnho](https://github.com/Ahnho) | Apply RNN to Stock Data |
 06 | 2021-10-11 | [Ahnho](https://github.com/Ahnho) | Apply RNN to Stock Data Part 2 |
-06 | 2021-10-11 | [Axect](https://github.com/Axect) | Time-Series Data Tutorial with R | [Jupyter1]("./week06/Basic\ Time-Series.ipynb"), [Jupyter2]("./week06/Time-Series\ Forecasting.ipynb"), [Colab](https://colab.research.google.com/drive/1He_jqOSE3LZ0a-fhat23R2hppYof5XIg?usp=sharing)
+06 | 2021-10-11 | [Axect](https://github.com/Axect) | Time-Series Data Tutorial with R | [Jupyter1](./week06/Basic%20Time-Series.ipynb), [Jupyter2](./week06/Time-Series%20Forecasting.ipynb), [Colab](https://colab.research.google.com/drive/1He_jqOSE3LZ0a-fhat23R2hppYof5XIg?usp=sharing)
 
 
 ## References
