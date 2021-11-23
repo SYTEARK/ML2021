@@ -50,7 +50,7 @@ def make_datapath_list(data_path, phase="train"):
     데이터의 경로를 저장한 리스트 작성
     """
     root_path = "hymenoptera_data/"
-    target_path = osp.join(data_path+root_path+phase+'/**/*.jpg') # *.jpg: 뒤가 .jpg로 끝나는 모든 파일들
+    target_path = osp.join(data_path, root_path+phase+'/**/*.jpg') # *.jpg: 뒤가 .jpg로 끝나는 모든 파일들
     print(target_path)
     
     path_list = []
