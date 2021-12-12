@@ -1,9 +1,14 @@
 use peroxide::fuga::*;
 
+// =============================================================================
+// Main
+// =============================================================================
 fn main() {
+    // Data Generation
     let df = data_gen();
     df.print();
 
+    // Preprocessing
     let group1 = df["x1"].to_vec()
         .iter()
         .zip(df["y1"].to_vec().iter())
@@ -24,25 +29,33 @@ fn main() {
     let mut lab = lab1;
     lab.extend(lab2.into_iter());
 
+    // Declare Perceptron
     let mut p = Perceptron::new(0.1);
+
+    // Training
     let mut loss = 0f64;
     for (xs, t) in group.iter().zip(lab.iter()) {
         loss = p.update(xs, *t);
         println!("Loss: {}", loss);
     }
 
+    // Prediction
     for (xs, t) in group.iter().zip(lab.iter()) {
         println!("True: {}, Predict: {}", t, p.forward(xs));
     }
 
+    // Extract Weights
     let W = p.get_W();
     println!("Weight: {:?}", W);
 
+    // Find the boundary
     let decision_boundary = |x: f64| { -(W[0] + W[1] * x) / W[2] };
 
+    // Prepare for plotting
     let domain = seq(-1f64, 3f64, 0.01);
     let image = domain.fmap(decision_boundary);
 
+    // Plot
     let mut plt = Plot2D::new();
     plt.set_domain(domain)
         .insert_image(image)
@@ -53,9 +66,12 @@ fn main() {
         .set_marker(vec![Line, Point, Point])
         .set_path("plot.png");
 
-    plt.savefig();
+    plt.savefig().expect("Error saving plot");
 }
 
+// =============================================================================
+// Perceptron Struct
+// =============================================================================
 #[derive(Debug)]
 struct Perceptron {
     W: Vec<f64>,
@@ -89,6 +105,9 @@ impl Perceptron {
     }
 }
 
+// =============================================================================
+// Data Generation
+// =============================================================================
 fn data_gen() -> DataFrame {
     let mut df = DataFrame::new(vec![]);
 
