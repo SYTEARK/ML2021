@@ -28,6 +28,8 @@ Week | Date | Lecturer | Contents | References
 
 - [만들면서 배우는 파이토치 딥러닝](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791162244609&orderClick=LET&Kc=), 오가와 유타로 저, 박광수 옮김, 한빛미디어 (2021)
 
-- [Deep Learning with PyTorch](https://www.manning.com/books/deep-learning-with-pytorch), Eli Stevens, Luca Antiga, and Thomas Viehmann, Manning Publications Co. (2020)
+- [Neural Networks and Deep Learning: A Textbook](http://www.charuaggarwal.net/neural.htm), Charu C. Aggarwal, (2018)
 
-- [Math and Architectures of Deep Learning](https://www.manning.com/books/math-and-architectures-of-deep-learning), Krishnendu Chaudhury, Manning Publications Co. (2022)
+- [Machine Learning A Bayesian and Optimization Perspective](https://www.elsevier.com/books/machine-learning/theodoridis/978-0-12-818803-3), Sergios Theodoridis. (2020)
+
+- [Deep Learning with PyTorch](https://www.manning.com/books/deep-learning-with-pytorch), Eli Stevens, Luca Antiga, and Thomas Viehmann, Manning Publications Co. (2020)
