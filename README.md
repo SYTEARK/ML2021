@@ -20,15 +20,21 @@ Week | Date | Lecturer | Contents | References
 07 | 2021-11-23 | [Axect](https://github.com/Axect) | Fine Tuning with VGGNet | [Colab](https://colab.research.google.com/drive/1X0xK-VPIn_VHzRG1Xnkbxsfg8NE_C1XL?usp=sharing)
 08 | 2021-12-12 | [Ahnho](https://github.com/Axect) | Transfer learning with VGGNet & MNIST Dataset | [Colab](https://colab.research.google.com/drive/1TlHd0qAHNT_OOhyEZdNNidXcHJuQwaZP?usp=sharing)
 08 | 2021-12-12 | [Axect](https://github.com/Axect) | Implement Perceptron | [Rust](./week08/tgkim/perceptron/src/main.rs)
+09 | 2021-12-19 | [Axect](https://github.com/Axect) | Linear Regression (ESL) | [Slides](https://drive.google.com/file/d/1SGJmYZu3sLL-VrULQZktAcNoqrRrRWYu/view?usp=sharing), [Note](https://drive.google.com/file/d/1h8xnQ1sm4PLgq6iWYpcFvBdSPkSzNuGE/view?usp=sharing)
 
 
+-----
 ## References
 
 ### Main Text Books
 
 - [만들면서 배우는 파이토치 딥러닝](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791162244609&orderClick=LET&Kc=), 오가와 유타로 저, 박광수 옮김, 한빛미디어 (2021)
 
+- [The Elements of Statistical Learning](https://hastie.su.domains/ElemStatLearn/), T. Hastie, R. Tibshirani and J. Friedman, 12th edition, Springer (2017)
+
 - [Neural Networks and Deep Learning: A Textbook](http://www.charuaggarwal.net/neural.htm), Charu C. Aggarwal, Springer (2018)
+
+### Sub Text Books
 
 - [Machine Learning A Bayesian and Optimization Perspective](https://www.elsevier.com/books/machine-learning/theodoridis/978-0-12-818803-3), Sergios Theodoridis, Elsevier (2020)
 
