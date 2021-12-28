@@ -3,4 +3,6 @@ data/
 .idea/
 target/
 true/
+*.7z
+data/
 
