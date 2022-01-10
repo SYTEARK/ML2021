@@ -1,0 +1,119 @@
+/* ========================================================================== */
+/* Animated Quote */
+/* ========================================================================== */
+.animated-border-quote {
+  display: inline-block;
+  margin: 0em;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.animated-border-quote blockquote {
+  background-color: #fff;
+  border: solid 2px #757575;
+  display: inline-block;
+  margin: 0;
+  padding: 1em;
+  position: relative;
+}
+
+.animated-border-quote blockquote:before {
+  -webkit-animation: clockwise 30s infinite linear;
+          animation: clockwise 30s infinite linear;
+  background-color: #fff;
+  bottom: 10%;
+  content: "";
+  left: 0;
+  opacity: .5;
+  position: absolute;
+  right: 0;
+  top: 10%;
+}
+
+.animated-border-quote blockquote:after {
+  -webkit-animation: counter 30s infinite linear;
+          animation: counter 30s infinite linear;
+  background-color: #fff;
+  bottom: 10%;
+  content: "";
+  left: 0;
+  opacity: .5;
+  position: absolute;
+  right: 0;
+  top: 10%;
+}
+
+.animated-border-quote blockquote cite {
+  display: block;
+  font-style: italic;
+  text-align: right;
+}
+
+.animated-border-quote blockquote cite:before {
+  content: "- ";
+}
+
+.animated-border-quote blockquote > * {
+  position: relative;
+  z-index: 1;
+}
+
+.animated-border-quote blockquote ul {
+  margin: 1em;
+  padding: 0;
+}
+
+.animated-border-quote blockquote ol {
+  margin: 1em;
+  padding: 0;
+}
+
+.animated-border-quote blockquote li {
+  text-align: left;
+  margin-top: 1em;
+}
+
+@-webkit-keyframes clockwise {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes clockwise {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes counter {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+  }
+}
+
+@keyframes counter {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+  }
+}
+/*# sourceMappingURL=additional.css.map */

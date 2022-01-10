@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Caveat');
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@font-face{
+  font-family: "Cascadia Code";
+  src:url("./fonts/CascadiaCode.woff2")
+}
+
+body { 
+    font-family: 'PT Sans', sans-serif; 
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Oxanium', cursive;
+  font-weight: bold;
+  text-shadow: 1px 2px 2px grey;
+}
+
+.remark-code, .remark-inline-code { 
+    font-family: 'Cascadia Code'; 
+}
+
+.remark-slide-number {
+  font-size: 11pt;
+  margin-bottom: 12px;
+  margin-right: 10px;
+  color: #555555; /* white */
+  opacity: 0.7; /* default: 0.5 */
+}
+
+#tab01 {
+  border-collapse: collapse;
+  width: 80%;
+}
+
+#tab01 td, #tab01 th {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tab01 tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+#tab01 tr:hover {
+    background-color: #ddd;
+}
+
+#tab01 th {
+  padding-top: 8px;
+  padding-bottom:8px;
+  text-align: center;
+  background: #555555;
+  color: #f2f2f2;
+}
+
+#tab01 td {
+  text-align:center;
+}
+
+
+
+/* Header/Footer stuff */
+div.my-header {
+    background-color: rgb(76, 78, 85);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ffffff), color-stop(10%,#feffff), color-stop(25%,rgb(180, 180, 189)), color-stop(50%,rgb(74, 73, 95)), color-stop(75%, rgb(37, 47, 100)), color-stop(100%, rgb(16, 26, 161)));
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 30px;
+    width: 100%;
+    text-align: left;
+}
+
+div.my-header p {
+    top: -7px;
+    position: relative;
+    font-family: 'Quantico', sans-serif;
+    font-size: 10pt;
+    color: white;
+    margin-right:10px;
+    margin-left: 10px;
+}
+
+div.my-header p.align_left img {
+    position: relative;
+    top: -4px;
+}
+
+div.my-footer {
+    background-color: rgb(76, 78, 85);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgb(16, 26, 161)), color-stop(10%,#251d75), color-stop(25%,rgb(33, 33, 114)), color-stop(50%,rgb(35, 36, 73)), color-stop(75%, rgb(59, 57, 88)), color-stop(100%, rgb(46, 46, 46)));
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 20px;
+    width: 100%;
+}
+
+div.my-footer p {
+    font-size: 10pt;
+    font-family: 'Quantico', sans-serif;
+    color: white;
+    position: relative;
+    bottom: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.align_left {
+    float: left;
+}
+
+.align_right {
+    float: right;
+}
+
+
+/* ========================================================================== */
+/* Multi Column */
+/* ========================================================================== */
+
+.left-column {float:left}
+.right-column {float:right}
+
+.split-30 .left-column {width: 30%}
+.split-30 .right-column {width: 70%}
+.split-40 .left-column {width: 40%}
+.split-40 .right-column {width: 60%}
+.split-50 .left-column {width: 50%}
+.split-50 .right-column {width: 50%}
+.split-60 .left-column {width: 60%}
+.split-60 .right-column {width: 40%}
+.split-70 .left-column {width: 70%}
+.split-70 .right-column {width: 30%}
+
+/* ========================================================================== */
+/*  Box Shadow */
+/* ========================================================================== */
+
+#boxshadow {
+  position: relative;
+  -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+  -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  padding: 10px;
+  background: white;
+}
+
+/* Make the image fit the box */
+#boxshadow img {
+  width: 100%;
+  /* border: 1px solid #8a4419;
+  border-style: inset; */
+}
+
+#boxshadow::after {
+  content: '';
+  position: absolute;
+  z-index: -1; /* hide shadow behind image */
+  -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);        
+  width: 70%; 
+  left: 15%; /* one half of the remaining 30% */
+  height: 100px;
+  bottom: 0;
+}
+
+.small-font {
+    font-size: 10pt;
+}
+
+@page {
+  size: 1024px 768px;
+  margin: 0;
+}
+
+@media print {
+  .remark-slide-scaler {
+    width: 100% !important;
+    height: 100% !important;
+    transform: scale(1) !important;
+    top: 0 !important;
+    left: 0 !important;
+  }
+}
